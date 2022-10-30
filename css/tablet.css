@@ -1,0 +1,104 @@
+/* For tablets: */
+@media only screen and (max-width: 768px) {
+  /* banner */
+  .banner-img {
+    height: 80vh;
+    object-fit: cover;
+  }
+
+  /* nav */
+  .nav-info {
+    width: 20%;
+  }
+
+  /* job */
+  #job-info .container {
+    grid-template-columns: auto auto;
+  }
+  #job-info .job-part1,
+  #job-info .job-part2 {
+    display: block;
+  }
+  #job-info .info-child {
+    width: 250px;
+    margin: 10px;
+  }
+  .job-icon i {
+    position: relative;
+    top: -30px;
+  }
+  .sub-icon {
+    flex-wrap: wrap;
+    column-gap: 15px;
+    row-gap: 5px;
+    justify-content: start;
+    margin-top: 0;
+  }
+  .sub-icon2 .content {
+    margin-bottom: 0px;
+  }
+  .sub-icon2 i {
+    width: 35px;
+    margin: 10px;
+  }
+
+  /* certificate */
+  #certificate .container {
+    padding: 40px;
+  }
+  #certificate .part-content {
+    margin-left: 0;
+    width: 70%;
+  }
+  .part1,
+  .part2,
+  .part3 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .part1,
+  .part3 {
+    padding-right: 20px;
+  }
+  .part2 {
+    padding-left: 20px;
+  }
+  .part2::after {
+    height: 215px;
+    left: 0;
+  }
+  .part3 {
+    padding-top: 50px;
+  }
+
+  /* project */
+  #project .container {
+    padding: 40px;
+  }
+  #project .project-part {
+    border: 1px solid var(--bg-light);
+  }
+  .pp-1,
+  .pp-2,
+  .pp-3 {
+    border-left: none;
+    border-right: none;
+  }
+  .pp-2 {
+    align-items: flex-start;
+  }
+  .pp-2 div .content {
+    display: flex;
+  }
+  .pp-2 i {
+    font-size: 16px;
+  }
+  .pp-3 {
+    border-bottom: none;
+  }
+  table tr:nth-child(2) {
+    border-top: 1px solid var(--bg-light);
+    border-bottom: 1px solid var(--bg-light);
+  }
+}

@@ -1,0 +1,44 @@
+/* For tablets: */
+@media only screen and (max-width: 768px) {
+  .container-page {
+    display: block;
+  }
+  .grid-goals,
+  .grid-team,
+  .grid-timeline,
+  .grid-scopes,
+  .grid-primary {
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .part {
+    flex-direction: column;
+  }
+  .content-part {
+    padding-left: 40px;
+  }
+  .icon-part {
+    text-align: center;
+  }
+  i {
+    transform: scale(2);
+  }
+  /* timeline */
+  .div-icon {
+    margin: 0;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+  }
+  .grid-timeline .p-part {
+    margin-bottom: 20px;
+  }
+  /* scopes */
+  .grid-scopes .content-part {
+    display: block;
+    padding-left: 40px;
+  }
+  .grid-scopes p {
+    line-height: 2;
+  }
+}
